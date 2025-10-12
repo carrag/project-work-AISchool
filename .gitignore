@@ -1,0 +1,5 @@
+echo "data/" >> .gitignore
+echo "*.pdf" >> .gitignore
+echo "*.png" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".ipynb_checkpoints/" >> .gitignore

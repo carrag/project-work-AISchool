@@ -1,0 +1,17 @@
+name: pw-ai
+channels:
+  - defaults
+dependencies:
+  - python=3.1
+  - pip
+  - pip:
+    - torch==2.8.0+cu128
+    - transformers==4.44.0
+    - pdf2image
+    - pytesseract
+    - Pillow
+    - opencv-python
+    - pyyaml
+    - jinja2
+    - pandas
+    - datasets
